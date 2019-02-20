@@ -1,22 +1,36 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="img/title-icon.png">
+
   <title>Pokemon!</title>
-
 </head>
-<body>
+<body class="body">
   
-  <div>
-  <h3>Please enter a Pokemon ID!</h3>
-  <input type="number" min="1" class="pokemon-input"></input>
-  </div>
+  <div class="wrapper">
+    <div>
+      
+    <h1>Please enter a Pokemon ID!</h1>
+    <h4>ID #s 1-803 available</h4>
+    <input type="number" min="1" class="pokemon-input"></input>
+    </div>
 
-  <div>
-  <span class="pokemon-name"></span>
-</div>
+    <div>
 
-  <img class="pokemon-image"></img>
-  <button class="pokemon-button">Use PokeDex!</button>
+      <br>
+      <span class="pokemon-name"></span>
+
+    </div>
+
+    <div>
+
+    <img class="pokemon-image center"></img>
+    <button class="pokemon-button center button">Use PokeDex!</button>
+
+    </div>
+  </div>  
     
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="main.js"></script>
